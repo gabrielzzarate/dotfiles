@@ -1,0 +1,57 @@
+{
+  "workbench.iconTheme": "dot_colored",
+  "workbench.productIconTheme": "Default",
+
+  // Editor look (crisp on 5K @ normal scaling)
+  "editor.fontFamily": "'Berkeley Mono', monospace",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 22,
+  "editor.letterSpacing": 0.2,
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
+  "editor.cursorStyle": "block",
+  "editor.cursorWidth": 2,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontVariations": false,
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.renderWhitespace": "none",
+  "editor.guides.indentation": false,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.scrollBeyondLastLine": false,
+  // "gruvboxMaterial.italicKeywords": true,
+  
+
+  // Tabs / chrome (classic)
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "explorer.openEditors.visible": 1,
+  "breadcrumbs.enabled": false,
+
+  // Window/UI
+  "window.zoomLevel": 0.10,
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "window.commandCenter": true,
+
+  // Terminal
+  "terminal.integrated.fontFamily": "'Berkeley Mono', monospace",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.cursorBlinking": false,
+  "workbench.colorTheme": "Gruvbox Dark (Medium)",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "claudeCode.preferredLocation": "sidebar",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.confirmSync": false
+}
