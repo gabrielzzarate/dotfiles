@@ -1,0 +1,104 @@
+{
+  "git.enableSmartCommit": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescriptreact": "html"
+  },
+  // "editor.fontFamily": "'Cartograph CF', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "MonoLisa",
+  "editor.fontSize": 15,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  // "editor.fontLigatures": true,
+  "editor.lineHeight": 0,
+  "workbench.fontAliasing": "antialiased",
+  // "editor.letterSpacing": 0.5,
+  "editor.fontWeight": "normal",
+  "editor.mouseWheelScrollSensitivity": 0.5,
+  "workbench.editor.tabSizing": "shrink",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "editor.fontLigatures": "'calt' on, 'liga' on, 'ss01' on, 'ss02' on, 'ss03' on, 'ss07' on, 'ss08' on, 'ss09' on, 'ss11' on, 'ss12' on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic (=FlottFlott)
+          "comment",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js" //class keyword
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "editor.tabSize": 2,
+  "editor.useTabStops": true,
+  "editor.formatOnPaste": true,
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.wordWrap": "on",
+  "editor.mouseWheelZoom": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.matchBrackets": "always",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.quickSuggestionsDelay": 0,
+  "workbench.sideBar.location": "left",
+  "workbench.editor.showTabs": "multiple",
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "git.confirmSync": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "editor.codeActionsOnSave": {},
+  "editor.accessibilitySupport": "off",
+  "breadcrumbs.enabled": false,
+  "workbench.colorTheme": "Monokai",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": true,
+  "workbench.navigationControl.enabled": false,
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.productIconTheme": "fluent-icons"
+}
